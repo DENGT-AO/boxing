@@ -1,0 +1,1 @@
+{"group": "default", "measures": [{"ctrlName": "Eip", "name": "T1", "health": 1, "timestamp": 1629097660, "value": 0}, {"ctrlName": "Eip", "name": "T2", "health": 1, "timestamp": 1629097660, "value": 2}]}
