@@ -1,0 +1,64 @@
+抓包：sudo tcpdump -i lo -t -s 0 -c 100 -w ./target.cap
+
+git使用：
+
+提交代码步骤：
+git add inhand/Erlang/erlang_mqtt.c
+git commit -m "convert ERLANG_DEV_PKS_CERT_FILE to ERLANG_ROOTCA_FILE"
+git push origin moor
+然后再去github上提交review审核
+
+
+git checkout moor		创建分支
+git checkout -b moor	创建并切换分支
+git push origin moor		将本地分支推送到云端
+
+git add .     添加更新至版本库
+git commit -m "xxx"   推送至版本库
+git pull 拉取最新代码
+git push  推送到云端
+
+git reset -hard xxx文件或文件夹  恢复文件
+git checkout xxx文件夹    恢复文件   必须在上层执行
+
+日志：
+erlang log-level 3
+device-manager log-level 3
+
+
+tftp:
+tftp -g -r Erlang 10.5.23.55
+文件    服务器IP地址
+tftp -pl log  10.5.23.55
+
+ngrokc -s 54.223.100.252 -p 4443 -t https -i 127.0.0.1 -l 9002 -u 614585be756b5f0001d62bce -d GwbR1NUaIsXJTe0LEJzt8LVRk7zlj33X -r 614ad983d410e0187acf0b22 -k 300
+ngrokc -s 54.223.100.252 -p 4443 -t tcp -i 127.0.0.1 -l 22 -u 614585be756b5f0001d62bce -d GwbR1NUaIsXJTe0LEJzt8LVRk7zlj33X -r 614ad18fd410e0187acf0b1d -k 300
+
+
+ubuntu登录ssh：
+ssh -p 3057 ngrok.iot.inhand.com.cn -l adm
+
+查看端口
+netstat -anutp
+
+测试：
+snprintf(timestamp_file, sizeof(timestamp_file), "echo 1 > /var/user/timestamp/%llu", (unsigned long long int)time(NULL));
+				LOG_IN("TIMESTAMP = %s",timestamp_file);
+				system(timestamp_file);
+				event_base_loopexit(g_my_event_base, NULL);
+
+
+
+
+502串口：一个232是ttyO1，一个485是ttyO3，在include/product.h能看到
+stestserver -d /dev/ttyO1 -r 115200 -b 8 -v N -s 1
+stestserver -d /dev/ttyO3 -r 115200 -b 8 -v N -s 1
+python test.py -d /dev/ttyUSB0 -i 115200 -b 8 -v N -s 1 -l 8 -i 0.1 -t 100 --count 100
+python test.py -d com7 -i 115200 -b 8 -v N -s 1 -l 8 -i 0.1 -t 1 --count 40
+
+python3 serialclient.py -d /dev/ttyUSB0 -i 115200 -b 8 -v N -s 1 -l 8 -i 0.1 -t 1 --count 5000
+
+systools里面test.py是多进程串口交互
+
+windows命令行进入超管：
+runas /user:inhand cmd
