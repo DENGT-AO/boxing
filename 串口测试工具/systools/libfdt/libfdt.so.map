@@ -1,0 +1,573 @@
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x0000000000000000        0x0 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtbeginS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 .obj/fdt.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 .obj/fdt_ro.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 .obj/fdt_rw.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 .obj/fdt_strerror.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 .obj/fdt_sw.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 .obj/fdt_wip.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtendS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o
+LOAD /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtbeginS.o
+LOAD .obj/fdt.o
+LOAD .obj/fdt_ro.o
+LOAD .obj/fdt_rw.o
+LOAD .obj/fdt_strerror.o
+LOAD .obj/fdt_sw.o
+LOAD .obj/fdt_wip.o
+LOAD /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/libgcc.a
+LOAD /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/../../../../arm-linux-gnueabihf/lib/libgcc_s.so
+START GROUP
+LOAD /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/../../../../arm-linux-gnueabihf/lib/libgcc_s.so.1
+LOAD /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/libgcc.a
+END GROUP
+LOAD /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/libc.so
+START GROUP
+LOAD /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/lib/libc.so.6
+LOAD /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/libc_nonshared.a
+LOAD /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/lib/ld-linux-armhf.so.3
+END GROUP
+LOAD /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/libgcc.a
+LOAD /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/../../../../arm-linux-gnueabihf/lib/libgcc_s.so
+START GROUP
+LOAD /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/../../../../arm-linux-gnueabihf/lib/libgcc_s.so.1
+LOAD /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/libgcc.a
+END GROUP
+LOAD /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtendS.o
+LOAD /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o
+                0x00000000000000d4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+                0x00000000000000d4       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x00000000000000d4       0x24 linker stubs
+
+.hash           0x00000000000000f8      0x294
+ *(.hash)
+ .hash          0x00000000000000f8      0x294 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x000000000000038c      0x600
+ *(.dynsym)
+ .dynsym        0x000000000000038c      0x600 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o
+
+.dynstr         0x000000000000098c      0x615
+ *(.dynstr)
+ .dynstr        0x000000000000098c      0x615 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o
+
+.gnu.version    0x0000000000000fa2       0xc0
+ *(.gnu.version)
+ .gnu.version   0x0000000000000fa2       0xc0 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o
+
+.gnu.version_d  0x0000000000001064        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000001064        0x0 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o
+
+.gnu.version_r  0x0000000000001064       0x20
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000001064       0x20 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o
+
+.rel.dyn        0x0000000000001084       0xb0
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ .rel.text      0x0000000000001084        0x0 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro.local
+                0x0000000000001084       0x70 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel.local
+                0x00000000000010f4        0x8 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x00000000000010fc       0x28 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.iplt)
+ .rel.iplt      0x0000000000001124        0x0 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o
+ .rel.init_array
+                0x0000000000001124        0x8 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o
+ .rel.fini_array
+                0x000000000000112c        0x8 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o
+
+.rela.dyn
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rela.iplt)
+
+.rel.plt        0x0000000000001134      0x158
+ *(.rel.plt)
+ .rel.plt       0x0000000000001134      0x158 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o
+
+.rela.plt
+ *(.rela.plt)
+
+.init           0x000000000000128c        0xc
+ *(SORT(.init))
+ .init          0x000000000000128c        0x8 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o
+                0x000000000000128c                _init
+ .init          0x0000000000001294        0x4 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o
+
+.plt            0x0000000000001298      0x218
+ *(.plt)
+ .plt           0x0000000000001298      0x218 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o
+
+.iplt           0x00000000000014b0        0x0
+ *(.iplt)
+ .iplt          0x00000000000014b0        0x0 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o
+
+.text           0x00000000000014b0     0x32b4
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x00000000000014b0       0x24 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o
+ .text          0x00000000000014d4       0xd0 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtbeginS.o
+ .text          0x00000000000015a4      0x510 .obj/fdt.o
+                0x00000000000015a4                fdt_check_header
+                0x0000000000001640                fdt_offset_ptr
+                0x00000000000016ec                fdt_next_tag
+                0x0000000000001804                _fdt_check_node_offset
+                0x0000000000001848                _fdt_check_prop_offset
+                0x000000000000188c                fdt_next_node
+                0x0000000000001960                fdt_first_subnode
+                0x000000000000199c                fdt_next_subnode
+                0x00000000000019f8                _fdt_find_string
+                0x0000000000001a5c                fdt_move
+ .text          0x0000000000001ab4      0xfbc .obj/fdt_ro.o
+                0x0000000000001b6c                fdt_string
+                0x0000000000001b90                fdt_get_mem_rsv
+                0x0000000000001c24                fdt_num_mem_rsv
+                0x0000000000001c90                fdt_subnode_offset_namelen
+                0x0000000000001d6c                fdt_subnode_offset
+                0x0000000000001d9c                fdt_get_name
+                0x0000000000001e1c                fdt_first_property_offset
+                0x0000000000001e3c                fdt_next_property_offset
+                0x0000000000001e5c                fdt_get_property_by_offset
+                0x0000000000001ec8                fdt_get_property_namelen
+                0x0000000000001f94                fdt_get_property
+                0x0000000000001fd4                fdt_getprop_namelen
+                0x0000000000001ff8                fdt_getprop_by_offset
+                0x0000000000002050                fdt_getprop
+                0x0000000000002090                fdt_get_phandle
+                0x0000000000002128                fdt_get_max_phandle
+                0x00000000000021b4                fdt_get_alias_namelen
+                0x0000000000002208                fdt_path_offset_namelen
+                0x0000000000002304                fdt_path_offset
+                0x000000000000232c                fdt_get_alias
+                0x0000000000002354                fdt_get_path
+                0x00000000000024d4                fdt_supernode_atdepth_offset
+                0x000000000000259c                fdt_node_depth
+                0x00000000000025c8                fdt_parent_offset
+                0x00000000000025f8                fdt_node_offset_by_prop_value
+                0x00000000000026a4                fdt_node_offset_by_phandle
+                0x000000000000271c                fdt_stringlist_contains
+                0x00000000000027a0                fdt_stringlist_count
+                0x000000000000280c                fdt_stringlist_search
+                0x00000000000028cc                fdt_stringlist_get
+                0x00000000000029ac                fdt_node_check_compatible
+                0x00000000000029f4                fdt_node_offset_by_compatible
+ .text          0x0000000000002a70      0xeac .obj/fdt_rw.o
+                0x0000000000002f94                fdt_add_mem_rsv
+                0x0000000000003074                fdt_del_mem_rsv
+                0x00000000000030e0                fdt_set_name
+                0x0000000000003178                fdt_setprop
+                0x0000000000003288                fdt_appendprop
+                0x0000000000003384                fdt_delprop
+                0x00000000000033fc                fdt_add_subnode_namelen
+                0x000000000000350c                fdt_add_subnode
+                0x000000000000353c                fdt_del_node
+                0x000000000000359c                fdt_open_into
+                0x00000000000037b4                fdt_pack
+                0x0000000000003838                fdt_remove_unused_strings
+ .text          0x000000000000391c       0x70 .obj/fdt_strerror.o
+                0x000000000000391c                fdt_strerror
+ .text          0x000000000000398c      0x710 .obj/fdt_sw.o
+                0x0000000000003a5c                fdt_create
+                0x0000000000003ad0                fdt_resize
+                0x0000000000003bb8                fdt_add_reservemap_entry
+                0x0000000000003c88                fdt_finish_reservemap
+                0x0000000000003ca8                fdt_begin_node
+                0x0000000000003d18                fdt_end_node
+                0x0000000000003d50                fdt_property_placeholder
+                0x0000000000003ed0                fdt_property
+                0x0000000000003f10                fdt_finish
+ .text          0x000000000000409c      0x6c8 .obj/fdt_wip.o
+                0x000000000000409c                fdt_setprop_inplace_namelen_partial
+                0x00000000000040f8                fdt_setprop_inplace
+                0x000000000000416c                fdt_nop_property
+                0x00000000000041b8                _fdt_node_end_offset
+                0x000000000000420c                fdt_nop_node
+                0x0000000000004260                fdt_find_regions
+ .text          0x0000000000004764        0x0 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtendS.o
+ .text          0x0000000000004764        0x0 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o
+ *(.gnu.warning)
+ *(.glue_7t)
+ .glue_7t       0x0000000000004764        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x0000000000004764        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x0000000000004764        0x0 linker stubs
+ *(.v4_bx)
+ .v4_bx         0x0000000000004764        0x0 linker stubs
+
+.fini           0x0000000000004764        0x8
+ *(SORT(.fini))
+ .fini          0x0000000000004764        0x4 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o
+                0x0000000000004764                _fini
+ .fini          0x0000000000004768        0x4 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o
+                [!provide]                        PROVIDE (__etext, .)
+                [!provide]                        PROVIDE (_etext, .)
+                [!provide]                        PROVIDE (etext, .)
+
+.rodata         0x000000000000476c      0x174
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.4
+                0x000000000000476c       0x2f .obj/fdt_ro.o
+ *fill*         0x000000000000479b        0x1 
+ .rodata.str1.4
+                0x000000000000479c      0x144 .obj/fdt_strerror.o
+                                        0x143 (size before relaxing)
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                [!provide]                        PROVIDE (__exidx_start, .)
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                [!provide]                        PROVIDE (__exidx_end, .)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x00000000000048e0        0x4
+ *(.eh_frame)
+ .eh_frame      0x00000000000048e0        0x4 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtendS.o
+ *(.eh_frame.*)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x00000000000148e4                . = DATA_SEGMENT_ALIGN (0x10000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array     0x00000000000148e4        0x4
+ *(SORT(.init_array.*) SORT(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x00000000000148e4        0x4 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtbeginS.o
+
+.fini_array     0x00000000000148e8        0x4
+ *(SORT(.fini_array.*) SORT(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x00000000000148e8        0x4 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtbeginS.o
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+
+.jcr            0x00000000000148ec        0x4
+ *(.jcr)
+ .jcr           0x00000000000148ec        0x0 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtbeginS.o
+ .jcr           0x00000000000148ec        0x4 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtendS.o
+
+.data.rel.ro    0x00000000000148f0       0x48
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x00000000000148f0       0x48 .obj/fdt_strerror.o
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x0000000000014938       0xe0
+ *(.dynamic)
+ .dynamic       0x0000000000014938       0xe0 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o
+                0x0000000000014938                _DYNAMIC
+                0x0000000000014a18                . = DATA_SEGMENT_RELRO_END (., 0x0)
+
+.got            0x0000000000014a18       0xcc
+ *(.got.plt)
+ .got.plt       0x0000000000014a18       0xb8 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o
+                0x0000000000014a18                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+ .igot.plt      0x0000000000014ad0        0x0 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o
+ *(.got)
+ .got           0x0000000000014ad0       0x14 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o
+ *(.igot)
+
+.data           0x0000000000014ae4        0x4
+                [!provide]                        PROVIDE (__data_start, .)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000000014ae4        0x0 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o
+ .data          0x0000000000014ae4        0x0 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtbeginS.o
+ .data.rel.local
+                0x0000000000014ae4        0x4 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtbeginS.o
+                0x0000000000014ae4                __dso_handle
+ .data          0x0000000000014ae8        0x0 .obj/fdt.o
+ .data          0x0000000000014ae8        0x0 .obj/fdt_ro.o
+ .data          0x0000000000014ae8        0x0 .obj/fdt_rw.o
+ .data          0x0000000000014ae8        0x0 .obj/fdt_strerror.o
+ .data          0x0000000000014ae8        0x0 .obj/fdt_sw.o
+ .data          0x0000000000014ae8        0x0 .obj/fdt_wip.o
+ .data          0x0000000000014ae8        0x0 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtendS.o
+ .data          0x0000000000014ae8        0x0 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o
+
+.tm_clone_table
+                0x0000000000014ae8        0x0
+ .tm_clone_table
+                0x0000000000014ae8        0x0 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtbeginS.o
+ .tm_clone_table
+                0x0000000000014ae8        0x0 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtendS.o
+
+.data1
+ *(.data1)
+                0x0000000000014ae8                _edata = .
+                [!provide]                        PROVIDE (edata, .)
+                0x0000000000014ae8                . = .
+                0x0000000000014ae8                __bss_start = .
+                0x0000000000014ae8                __bss_start__ = .
+
+.bss            0x0000000000014ae8        0x4
+ *(.dynbss)
+ .dynbss        0x0000000000014ae8        0x0 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000014ae8        0x0 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o
+ .bss           0x0000000000014ae8        0x1 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtbeginS.o
+ .bss           0x0000000000014ae9        0x0 .obj/fdt.o
+ .bss           0x0000000000014ae9        0x0 .obj/fdt_ro.o
+ .bss           0x0000000000014ae9        0x0 .obj/fdt_rw.o
+ .bss           0x0000000000014ae9        0x0 .obj/fdt_strerror.o
+ .bss           0x0000000000014ae9        0x0 .obj/fdt_sw.o
+ .bss           0x0000000000014ae9        0x0 .obj/fdt_wip.o
+ .bss           0x0000000000014ae9        0x0 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtendS.o
+ .bss           0x0000000000014ae9        0x0 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o
+ *(COMMON)
+                0x0000000000014aec                . = ALIGN ((. != 0x0)?0x4:0x1)
+ *fill*         0x0000000000014ae9        0x3 
+                0x0000000000014aec                _bss_end__ = .
+                0x0000000000014aec                __bss_end__ = .
+                0x0000000000014aec                . = ALIGN (0x4)
+                0x0000000000014aec                . = SEGMENT_START ("ldata-segment", .)
+                0x0000000000014aec                . = ALIGN (0x4)
+                0x0000000000014aec                __end__ = .
+                0x0000000000014aec                _end = .
+                [!provide]                        PROVIDE (end, .)
+                0x0000000000014aec                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x2d
+ *(.comment)
+ .comment       0x0000000000000000       0x2d /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtbeginS.o
+                                         0x2e (size before relaxing)
+ .comment       0x000000000000002d       0x2e .obj/fdt.o
+ .comment       0x000000000000002d       0x2e .obj/fdt_ro.o
+ .comment       0x000000000000002d       0x2e .obj/fdt_rw.o
+ .comment       0x000000000000002d       0x2e .obj/fdt_strerror.o
+ .comment       0x000000000000002d       0x2e .obj/fdt_sw.o
+ .comment       0x000000000000002d       0x2e .obj/fdt_wip.o
+ .comment       0x000000000000002d       0x2e /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtendS.o
+
+.ARM.attributes
+                0x0000000000000000       0x33
+ .ARM.attributes
+                0x0000000000000000       0x23 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o
+ .ARM.attributes
+                0x0000000000000023       0x33 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtbeginS.o
+ .ARM.attributes
+                0x0000000000000056       0x3b .obj/fdt.o
+ .ARM.attributes
+                0x0000000000000091       0x3b .obj/fdt_ro.o
+ .ARM.attributes
+                0x00000000000000cc       0x3b .obj/fdt_rw.o
+ .ARM.attributes
+                0x0000000000000107       0x3b .obj/fdt_strerror.o
+ .ARM.attributes
+                0x0000000000000142       0x3b .obj/fdt_sw.o
+ .ARM.attributes
+                0x000000000000017d       0x3b .obj/fdt_wip.o
+ .ARM.attributes
+                0x00000000000001b8       0x33 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtendS.o
+ .ARM.attributes
+                0x00000000000001eb       0x23 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000       0x58
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x30 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o
+ .debug_aranges
+                0x0000000000000030       0x28 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000      0x1ae
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000       0xd7 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o
+ .debug_info    0x00000000000000d7       0xd7 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o
+
+.debug_abbrev   0x0000000000000000       0x24
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0x12 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o
+ .debug_abbrev  0x0000000000000012       0x12 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o
+
+.debug_line     0x0000000000000000       0xc0
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000       0x6c /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o
+ .debug_line    0x000000000000006c       0x54 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000       0x48
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x28 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o
+ .debug_ranges  0x0000000000000028       0x20 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_addr
+ *(.debug_addr)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(libfdt.so elf32-littlearm)

@@ -1,0 +1,3 @@
+.obj/bspatch.o: bspatch.c \
+ /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/include/stdc-predef.h \
+ /home/dt/inhand/IG502/inhand/includes/build_info.h

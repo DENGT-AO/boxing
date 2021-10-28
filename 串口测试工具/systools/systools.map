@@ -1,0 +1,1035 @@
+Archive member included to satisfy reference by file (symbol)
+
+/opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/libgcc.a(_udivsi3.o)
+                              .obj/uboot.o (__aeabi_uidiv)
+/opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/libgcc.a(_dvmd_lnx.o)
+                              /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+/opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/libc_nonshared.a(elf-init.oS)
+                              /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crt1.o (__libc_csu_init)
+
+Allocating common symbols
+Common symbol       size              file
+
+ACTION_STATE        0x4               .obj/systools.o
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x0000000000000000        0x0 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crt1.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtbegin.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 .obj/systools.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 .obj/dnsc.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 .obj/rtc.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 .obj/reboot_halt.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 .obj/intools.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 .obj/uboot.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 .obj/led.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 .obj/mtd.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 .obj/iodebug.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 .obj/modemsignal.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 .obj/usbreset.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 .obj/iscfg.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 .obj/tipc-config.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 .obj/sdebug.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 .obj/stestserver.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 .obj/bspatch.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 .obj/devmem2.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 .obj/image-fit.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 .obj/iburn_ig9.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 .obj/mobius_pysdk_flag.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 .obj/mobius_pysdk_install.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 .obj/mobius_pyapp_install.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/libgcc.a(_udivsi3.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/libgcc.a(_dvmd_lnx.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/libc_nonshared.a(elf-init.oS)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtend.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crt1.o
+LOAD /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o
+LOAD /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtbegin.o
+LOAD .obj/systools.o
+LOAD .obj/dnsc.o
+LOAD .obj/rtc.o
+LOAD .obj/reboot_halt.o
+LOAD .obj/intools.o
+LOAD .obj/uboot.o
+LOAD .obj/led.o
+LOAD .obj/mtd.o
+LOAD .obj/iodebug.o
+LOAD .obj/modemsignal.o
+LOAD .obj/usbreset.o
+LOAD .obj/iscfg.o
+LOAD .obj/tipc-config.o
+LOAD .obj/sdebug.o
+LOAD .obj/stestserver.o
+LOAD .obj/bspatch.o
+LOAD .obj/devmem2.o
+LOAD .obj/image-fit.o
+LOAD .obj/iburn_ig9.o
+LOAD .obj/mobius_pysdk_flag.o
+LOAD .obj/mobius_pysdk_install.o
+LOAD .obj/mobius_pyapp_install.o
+LOAD /home/dt/inhand/IG502/system/install/IG502-ti-am335x/usr/lib/libcrypto.so
+LOAD /home/dt/inhand/IG502/system/install/IG502-ti-am335x/usr/lib/libfdt.so
+LOAD /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/libdl.so
+LOAD /home/dt/inhand/IG502/system/install/IG502-ti-am335x/usr/lib/libshared.so
+LOAD /home/dt/inhand/IG502/system/install/IG502-ti-am335x/usr/lib/libischip.so
+LOAD /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/libdl.so
+LOAD /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/libpthread.so
+START GROUP
+LOAD /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/lib/libpthread.so.0
+LOAD /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/libpthread_nonshared.a
+END GROUP
+LOAD /home/dt/inhand/IG502/system/install/IG502-ti-am335x/usr/lib/libipc.so
+LOAD /home/dt/inhand/IG502/system/install/IG502-ti-am335x/usr/lib/libevent.so
+LOAD /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/libm.so
+LOAD /home/dt/inhand/IG502/system/install/IG502-ti-am335x/usr/lib/libjansson.so
+LOAD /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/libgcc.a
+LOAD /home/dt/inhand/IG502/system/install-base/IG502-ti-am335x/lib/libgcc_s.so
+START GROUP
+LOAD /home/dt/inhand/IG502/system/install-base/IG502-ti-am335x/lib/libgcc_s.so.1
+LOAD /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/libgcc.a
+END GROUP
+LOAD /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/libc.so
+START GROUP
+LOAD /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/lib/libc.so.6
+LOAD /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/libc_nonshared.a
+LOAD /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/lib/ld-linux-armhf.so.3
+END GROUP
+LOAD /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/libgcc.a
+LOAD /home/dt/inhand/IG502/system/install-base/IG502-ti-am335x/lib/libgcc_s.so
+START GROUP
+LOAD /home/dt/inhand/IG502/system/install-base/IG502-ti-am335x/lib/libgcc_s.so.1
+LOAD /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/libgcc.a
+END GROUP
+LOAD /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtend.o
+LOAD /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o
+                [!provide]                        PROVIDE (__executable_start, 0x10000)
+                0x0000000000010134                . = (0x10000 + SIZEOF_HEADERS)
+
+.interp         0x0000000000010134       0x19
+ *(.interp)
+ .interp        0x0000000000010134       0x19 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crt1.o
+
+.note.ABI-tag   0x0000000000010150       0x20
+ .note.ABI-tag  0x0000000000010150       0x20 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crt1.o
+
+.note.gnu.build-id
+                0x0000000000010170       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x0000000000010170       0x24 linker stubs
+
+.hash           0x0000000000010194      0x4b0
+ *(.hash)
+ .hash          0x0000000000010194      0x4b0 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crt1.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x0000000000010644      0xa70
+ *(.dynsym)
+ .dynsym        0x0000000000010644      0xa70 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crt1.o
+
+.dynstr         0x00000000000110b4      0x6ae
+ *(.dynstr)
+ .dynstr        0x00000000000110b4      0x6ae /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crt1.o
+
+.gnu.version    0x0000000000011762      0x14e
+ *(.gnu.version)
+ .gnu.version   0x0000000000011762      0x14e /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crt1.o
+
+.gnu.version_d  0x00000000000118b0        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000000118b0        0x0 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crt1.o
+
+.gnu.version_r  0x00000000000118b0       0x50
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000000118b0       0x50 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crt1.o
+
+.rel.dyn        0x0000000000011900       0x38
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x0000000000011900       0x38 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crt1.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ .rel.bss       0x0000000000011938        0x0 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crt1.o
+                [!provide]                        PROVIDE (__rel_iplt_start, .)
+ *(.rel.iplt)
+ .rel.iplt      0x0000000000011938        0x0 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crt1.o
+                [!provide]                        PROVIDE (__rel_iplt_end, .)
+
+.rela.dyn       0x0000000000011938        0x0
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+                [!provide]                        PROVIDE (__rela_iplt_start, .)
+ *(.rela.iplt)
+                [!provide]                        PROVIDE (__rela_iplt_end, .)
+
+.rel.plt        0x0000000000011938      0x488
+ *(.rel.plt)
+ .rel.plt       0x0000000000011938      0x488 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crt1.o
+
+.rela.plt
+ *(.rela.plt)
+
+.init           0x0000000000011dc0        0xc
+ *(SORT(.init))
+ .init          0x0000000000011dc0        0x8 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o
+                0x0000000000011dc0                _init
+ .init          0x0000000000011dc8        0x4 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o
+
+.plt            0x0000000000011dcc      0x6e0
+ *(.plt)
+ .plt           0x0000000000011dcc      0x6e0 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crt1.o
+                0x0000000000011de0                open@@GLIBC_2.4
+                0x0000000000011dec                sync@@GLIBC_2.4
+                0x0000000000011df8                strerror@@GLIBC_2.4
+                0x0000000000011e04                SHA256
+                0x0000000000011e10                getRtc
+                0x0000000000011e1c                fileno@@GLIBC_2.4
+                0x0000000000011e28                mkdir@@GLIBC_2.4
+                0x0000000000011e34                reboot@@GLIBC_2.4
+                0x0000000000011e40                mmap@@GLIBC_2.4
+                0x0000000000011e4c                abort@@GLIBC_2.4
+                0x0000000000011e58                getsockname@@GLIBC_2.4
+                0x0000000000011e64                localtime@@GLIBC_2.4
+                0x0000000000011e70                memcmp@@GLIBC_2.4
+                0x0000000000011e7c                fdt_strerror
+                0x0000000000011e88                sysconf@@GLIBC_2.4
+                0x0000000000011e94                syslog@@GLIBC_2.4
+                0x0000000000011ea0                strlcpy
+                0x0000000000011eac                __libc_start_main@@GLIBC_2.4
+                0x0000000000011eb8                erase_pysdk_img_flag
+                0x0000000000011ec4                __isoc99_fscanf@@GLIBC_2.7
+                0x0000000000011ed0                backup_pysdk_img
+                0x0000000000011edc                inet_ntoa@@GLIBC_2.4
+                0x0000000000011ee8                signal@@GLIBC_2.4
+                0x0000000000011ef4                serial_set_parity
+                0x0000000000011f00                set_action
+                0x0000000000011f0c                MD5
+                0x0000000000011f24                __isoc99_sscanf@@GLIBC_2.7
+                0x0000000000011f30                rename@@GLIBC_2.4
+                0x0000000000011f3c                strncpy@@GLIBC_2.4
+                0x0000000000011f48                fclose@@GLIBC_2.4
+                0x0000000000011f54                fgets@@GLIBC_2.4
+                0x0000000000011f60                recv@@GLIBC_2.4
+                0x0000000000011f6c                bootenv_get
+                0x0000000000011f78                _IO_getc@@GLIBC_2.4
+                0x0000000000011f84                system@@GLIBC_2.4
+                0x0000000000011f90                strchr@@GLIBC_2.4
+                0x0000000000011f9c                putchar@@GLIBC_2.4
+                0x0000000000011fa8                strcasecmp@@GLIBC_2.4
+                0x0000000000011fb4                trim_str
+                0x0000000000011fc0                pclose@@GLIBC_2.4
+                0x0000000000011fcc                calloc@@GLIBC_2.4
+                0x0000000000011fd8                sendto@@GLIBC_2.4
+                0x0000000000011fe4                stpcpy@@GLIBC_2.4
+                0x0000000000011ff0                fopen@@GLIBC_2.4
+                0x0000000000011ffc                fdt_check_header
+                0x0000000000012008                memset@@GLIBC_2.4
+                0x0000000000012014                recover_pysdk_img
+                0x0000000000012020                strrchr@@GLIBC_2.4
+                0x000000000001202c                fsync@@GLIBC_2.4
+                0x0000000000012038                getopt_long_only@@GLIBC_2.4
+                0x0000000000012044                get_temperature
+                0x0000000000012050                perror@@GLIBC_2.4
+                0x000000000001205c                relocate_is_config
+                0x0000000000012068                set_bootflag
+                0x0000000000012074                fdt_next_subnode
+                0x0000000000012080                usleep@@GLIBC_2.4
+                0x000000000001208c                kill_pidfile
+                0x0000000000012098                log_caller_process
+                0x00000000000120a4                ih_license_init
+                0x00000000000120b0                free@@GLIBC_2.4
+                0x00000000000120bc                read@@GLIBC_2.4
+                0x00000000000120c8                write@@GLIBC_2.4
+                0x00000000000120d4                access@@GLIBC_2.4
+                0x00000000000120e0                openlog@@GLIBC_2.4
+                0x00000000000120ec                fseek@@GLIBC_2.4
+                0x00000000000120f8                tcgetattr@@GLIBC_2.4
+                0x0000000000012104                symlink@@GLIBC_2.4
+                0x0000000000012110                bootenv_set
+                0x000000000001211c                set_pysdk_img_flag
+                0x0000000000012128                erase_set_pysdk_img_flag
+                0x0000000000012134                socket@@GLIBC_2.4
+                0x0000000000012140                fflush@@GLIBC_2.4
+                0x000000000001214c                ioctl@@GLIBC_2.4
+                0x0000000000012158                strlen@@GLIBC_2.4
+                0x0000000000012164                unlink@@GLIBC_2.4
+                0x0000000000012170                getopt@@GLIBC_2.4
+                0x000000000001217c                strtoul@@GLIBC_2.4
+                0x0000000000012188                restore_is_config
+                0x0000000000012194                save_is_config
+                0x00000000000121a0                memcpy@@GLIBC_2.4
+                0x00000000000121ac                __ctype_tolower_loc@@GLIBC_2.4
+                0x00000000000121b8                part_open
+                0x00000000000121c4                strtol@@GLIBC_2.4
+                0x00000000000121d0                strcpy@@GLIBC_2.4
+                0x00000000000121dc                waitpid@@GLIBC_2.4
+                0x00000000000121e8                strncat@@GLIBC_2.4
+                0x00000000000121f4                pysdk_img_flag
+                0x0000000000012200                printf@@GLIBC_2.4
+                0x000000000001220c                raise@@GLIBC_2.4
+                0x0000000000012218                fdt_get_name
+                0x0000000000012224                bind@@GLIBC_2.4
+                0x0000000000012230                _eval
+                0x000000000001223c                strstr@@GLIBC_2.4
+                0x0000000000012248                select@@GLIBC_2.4
+                0x0000000000012254                close@@GLIBC_2.4
+                0x0000000000012260                fwrite@@GLIBC_2.4
+                0x000000000001226c                strncasecmp@@GLIBC_2.4
+                0x0000000000012278                remove@@GLIBC_2.4
+                0x0000000000012284                _logtrace_log
+                0x0000000000012290                fprintf@@GLIBC_2.4
+                0x000000000001229c                malloc@@GLIBC_2.4
+                0x00000000000122a8                chdir@@GLIBC_2.4
+                0x00000000000122b4                poll@@GLIBC_2.4
+                0x00000000000122c0                fdt_path_offset
+                0x00000000000122cc                gpio
+                0x00000000000122d8                ledcon
+                0x00000000000122e4                sleep@@GLIBC_2.4
+                0x00000000000122f0                fdt_first_subnode
+                0x00000000000122fc                part_close
+                0x0000000000012308                __isoc99_scanf@@GLIBC_2.7
+                0x0000000000012314                popen@@GLIBC_2.4
+                0x0000000000012320                puts@@GLIBC_2.4
+                0x000000000001232c                tcsetattr@@GLIBC_2.4
+                0x0000000000012338                getpid@@GLIBC_2.4
+                0x0000000000012344                closelog@@GLIBC_2.4
+                0x0000000000012350                fdt_setprop
+                0x000000000001235c                fork@@GLIBC_2.4
+                0x0000000000012368                SHA1
+                0x0000000000012374                verify_pysdk_img_sign
+                0x0000000000012380                lseek@@GLIBC_2.4
+                0x000000000001238c                munmap@@GLIBC_2.4
+                0x0000000000012398                __fxstat@@GLIBC_2.4
+                0x00000000000123a4                asctime@@GLIBC_2.4
+                0x00000000000123b0                index@@GLIBC_2.4
+                0x00000000000123bc                part_erase2
+                0x00000000000123c8                fdt_getprop
+                0x00000000000123d4                snprintf@@GLIBC_2.4
+                0x00000000000123e0                fread@@GLIBC_2.4
+                0x00000000000123ec                bootenv_show
+                0x00000000000123f8                strncmp@@GLIBC_2.4
+                0x0000000000012404                kill@@GLIBC_2.4
+                0x0000000000012410                gethostbyname@@GLIBC_2.4
+                0x000000000001241c                f_exists
+                0x0000000000012428                setsockopt@@GLIBC_2.4
+                0x0000000000012434                serial_set_speed
+                0x0000000000012440                strcmp@@GLIBC_2.4
+                0x000000000001244c                exit@@GLIBC_2.4
+                0x0000000000012458                part_write
+                0x0000000000012464                __errno_location@@GLIBC_2.4
+                0x0000000000012470                start_program
+                0x000000000001247c                fdt_next_node
+                0x0000000000012488                saveRtc
+                0x0000000000012494                part_read
+                0x00000000000124a0                sprintf@@GLIBC_2.4
+
+.iplt           0x00000000000124ac        0x0
+ *(.iplt)
+ .iplt          0x00000000000124ac        0x0 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crt1.o
+
+.text           0x00000000000124b0     0xaaf0
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ .text.unlikely
+                0x00000000000124b0       0x1c .obj/tipc-config.o
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ .text.startup  0x00000000000124cc      0x254 .obj/systools.o
+                0x00000000000124cc                main
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000012720       0x30 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crt1.o
+                0x0000000000012720                _start
+ .text          0x0000000000012750       0x24 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o
+ .text          0x0000000000012774       0x8c /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtbegin.o
+ .text          0x0000000000012800        0x0 .obj/systools.o
+ .text          0x0000000000012800       0xe0 .obj/dnsc.o
+                0x0000000000012800                dnsc_main
+ .text          0x00000000000128e0       0xd4 .obj/rtc.o
+                0x00000000000128e0                rtc_main
+ .text          0x00000000000129b4      0x150 .obj/reboot_halt.o
+                0x00000000000129b4                reboothalt_main
+ .text          0x0000000000012b04      0xea4 .obj/intools.o
+                0x0000000000012b04                intools_main
+ .text          0x00000000000139a8     0x1290 .obj/uboot.o
+                0x0000000000013bec                bootenv_usage
+                0x0000000000013c44                bootenv_main
+                0x0000000000013d68                crc32
+                0x0000000000013dd4                read_ubootcfg
+                0x0000000000013fb8                flash_erase
+                0x000000000001439c                flash_eraseall
+                0x0000000000014444                write_ubootcfg
+                0x0000000000014758                write_multi_ubootcfg
+ .text          0x0000000000014c38      0x50c .obj/led.o
+                0x0000000000014c38                ledcon_main
+ .text          0x0000000000015144      0x65c .obj/mtd.o
+                0x0000000000015144                main_help
+                0x000000000001518c                do_mtd_write
+                0x00000000000152f4                do_mtd_read
+                0x00000000000154f8                do_mtd_erase
+                0x0000000000015520                mtd_main
+ .text          0x00000000000157a0      0x1e0 .obj/iodebug.o
+                0x00000000000157a0                iodebug_main
+ .text          0x0000000000015980      0x710 .obj/modemsignal.o
+                0x0000000000015980                modemsignal_get
+                0x00000000000159e8                modemsignal_set_rts
+                0x0000000000015a94                modemsignal_set_dtr
+                0x0000000000015b40                modemsignal_dump
+                0x0000000000015c74                print_modemsignal_usage
+                0x0000000000015cec                modemsignal_main
+ .text          0x0000000000016090       0xe4 .obj/usbreset.o
+                0x0000000000016090                usbreset_main
+ .text          0x0000000000016174       0xf4 .obj/iscfg.o
+                0x0000000000016174                iscfg_usage
+                0x00000000000161cc                iscfg_main
+ .text          0x0000000000016268     0x28bc .obj/tipc-config.o
+                0x0000000000018600                get_arg
+                0x00000000000188c8                tipc_config_main
+ .text          0x0000000000018b24      0x844 .obj/sdebug.o
+                0x0000000000018b24                sdebug_main
+                0x0000000000018fac                comredirect_main
+ .text          0x0000000000019368      0x8fc .obj/stestserver.o
+                0x0000000000019368                message
+                0x0000000000019400                uart_init
+                0x00000000000194a0                crc_8
+                0x00000000000194d0                crc_para
+                0x000000000001973c                pars_data
+                0x0000000000019914                read_cb
+                0x0000000000019a20                stestserver_main
+ .text          0x0000000000019c64        0x8 .obj/bspatch.o
+                0x0000000000019c64                bspatch_main
+ .text          0x0000000000019c6c      0x364 .obj/devmem2.o
+                0x0000000000019c6c                devmem2_main
+ .text          0x0000000000019fd0      0x904 .obj/image-fit.o
+                0x000000000001a028                fit_image_get_data
+                0x000000000001a09c                fit_image_hash_get_algo
+                0x000000000001a0fc                fit_image_hash_get_value
+                0x000000000001a170                fit_get_end
+                0x000000000001a190                fit_set_timestamp
+                0x000000000001a234                calculate_hash
+                0x000000000001a5c0                fit_image_verify
+                0x000000000001a708                fit_all_image_verify
+                0x000000000001a7d8                fit_check_format
+ .text          0x000000000001a8d4      0xfe8 .obj/iburn_ig9.o
+                0x000000000001aa20                usage
+                0x000000000001aa5c                dump_fdt_header
+                0x000000000001ab5c                upgrade_main_board
+                0x000000000001b328                iburn_main
+ .text          0x000000000001b8bc      0x388 .obj/mobius_pysdk_flag.o
+                0x000000000001b94c                mobius_pysdk_flag_main
+ .text          0x000000000001bc44      0x498 .obj/mobius_pysdk_install.o
+                0x000000000001bce4                notice_restart_python
+                0x000000000001bd24                mobius_pysdk_install_main
+ .text          0x000000000001c0dc      0xbfc .obj/mobius_pyapp_install.o
+                0x000000000001c948                mobius_pyapp_install_main
+ .text          0x000000000001ccd8      0x278 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/libgcc.a(_udivsi3.o)
+                0x000000000001ccd8                __udivsi3
+                0x000000000001ccd8                __aeabi_uidiv
+                0x000000000001cf34                __aeabi_uidivmod
+ .text          0x000000000001cf50        0xc /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/libgcc.a(_dvmd_lnx.o)
+                0x000000000001cf50                __aeabi_idiv0
+                0x000000000001cf50                __aeabi_ldiv0
+ .text          0x000000000001cf5c       0x44 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/libc_nonshared.a(elf-init.oS)
+                0x000000000001cf5c                __libc_csu_init
+                0x000000000001cf9c                __libc_csu_fini
+ .text          0x000000000001cfa0        0x0 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtend.o
+ .text          0x000000000001cfa0        0x0 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o
+ *(.gnu.warning)
+ *(.glue_7t)
+ .glue_7t       0x000000000001cfa0        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x000000000001cfa0        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x000000000001cfa0        0x0 linker stubs
+ *(.v4_bx)
+ .v4_bx         0x000000000001cfa0        0x0 linker stubs
+
+.fini           0x000000000001cfa0        0x8
+ *(SORT(.fini))
+ .fini          0x000000000001cfa0        0x4 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o
+                0x000000000001cfa0                _fini
+ .fini          0x000000000001cfa4        0x4 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o
+                [!provide]                        PROVIDE (__etext, .)
+                [!provide]                        PROVIDE (_etext, .)
+                [!provide]                        PROVIDE (etext, .)
+
+.rodata         0x000000000001cfa8     0x3938
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.cst4   0x000000000001cfa8        0x4 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crt1.o
+                0x000000000001cfa8                _IO_stdin_used
+ .rodata.str1.4
+                0x000000000001cfac      0x16d .obj/systools.o
+ *fill*         0x000000000001d119        0x3 
+ .rodata.str1.4
+                0x000000000001d11c       0x5c .obj/dnsc.o
+                                         0x60 (size before relaxing)
+ .rodata.str1.4
+                0x000000000001d178       0x2e .obj/rtc.o
+ *fill*         0x000000000001d1a6        0x2 
+ .rodata.str1.4
+                0x000000000001d1a8       0x58 .obj/reboot_halt.o
+                                         0x60 (size before relaxing)
+ .rodata        0x000000000001d200      0x804 .obj/intools.o
+ .rodata.str1.4
+                0x000000000001da04      0x29c .obj/intools.o
+                                        0x2a4 (size before relaxing)
+ .rodata        0x000000000001dca0       0x1d .obj/uboot.o
+ *fill*         0x000000000001dcbd        0x3 
+ .rodata.str1.4
+                0x000000000001dcc0      0x224 .obj/uboot.o
+                                        0x240 (size before relaxing)
+ .rodata.str1.4
+                0x000000000001dee4      0x1b7 .obj/led.o
+                                        0x1c2 (size before relaxing)
+ *fill*         0x000000000001e09b        0x1 
+ .rodata.str1.4
+                0x000000000001e09c      0x110 .obj/mtd.o
+                                        0x140 (size before relaxing)
+ .rodata.str1.4
+                0x000000000001e1ac      0x244 .obj/iodebug.o
+ .rodata.str1.4
+                0x000000000001e3f0      0x1f7 .obj/modemsignal.o
+                                        0x1fd (size before relaxing)
+ *fill*         0x000000000001e5e7        0x1 
+ .rodata.str1.4
+                0x000000000001e5e8       0x85 .obj/usbreset.o
+ *fill*         0x000000000001e66d        0x3 
+ .rodata.str1.4
+                0x000000000001e670       0x38 .obj/iscfg.o
+                                         0x50 (size before relaxing)
+ .rodata.str1.4
+                0x000000000001e6a8      0xac5 .obj/tipc-config.o
+                                        0xafd (size before relaxing)
+ *fill*         0x000000000001f16d        0x3 
+ .rodata        0x000000000001f170       0x10 .obj/sdebug.o
+ .rodata.str1.4
+                0x000000000001f180      0x172 .obj/sdebug.o
+ *fill*         0x000000000001f2f2        0x2 
+ .rodata.str1.4
+                0x000000000001f2f4      0x1c2 .obj/stestserver.o
+                                        0x1ee (size before relaxing)
+ *fill*         0x000000000001f4b6        0x2 
+ .rodata.str1.4
+                0x000000000001f4b8      0x181 .obj/devmem2.o
+ *fill*         0x000000000001f639        0x3 
+ .rodata.str1.4
+                0x000000000001f63c      0x2a4 .obj/image-fit.o
+                                        0x2b8 (size before relaxing)
+ .rodata.str1.4
+                0x000000000001f8e0      0x684 .obj/iburn_ig9.o
+                                        0x6c0 (size before relaxing)
+ .rodata.str1.4
+                0x000000000001ff64      0x127 .obj/mobius_pysdk_flag.o
+                                        0x14f (size before relaxing)
+ *fill*         0x000000000002008b        0x1 
+ .rodata.str1.4
+                0x000000000002008c      0x29b .obj/mobius_pysdk_install.o
+                                        0x30b (size before relaxing)
+ *fill*         0x0000000000020327        0x1 
+ .rodata.str1.4
+                0x0000000000020328      0x5b8 .obj/mobius_pyapp_install.o
+                                        0x66a (size before relaxing)
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab      0x00000000000208e0        0x0
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ .ARM.extab     0x00000000000208e0        0x0 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crt1.o
+                [!provide]                        PROVIDE (__exidx_start, .)
+
+.ARM.exidx      0x00000000000208e0        0x8
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x00000000000208e0        0x8 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crt1.o
+                [!provide]                        PROVIDE (__exidx_end, .)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x00000000000208e8        0x4
+ *(.eh_frame)
+ .eh_frame      0x00000000000208e8        0x4 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtend.o
+ *(.eh_frame.*)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x00000000000308ec                . = DATA_SEGMENT_ALIGN (0x10000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x00000000000308ec        0x0
+                [!provide]                        PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end, .)
+
+.init_array     0x00000000000308ec        0x4
+                0x00000000000308ec                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*) SORT(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x00000000000308ec        0x4 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtbegin.o
+                0x00000000000308f0                PROVIDE (__init_array_end, .)
+
+.fini_array     0x00000000000308f0        0x4
+                [!provide]                        PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*) SORT(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x00000000000308f0        0x4 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtbegin.o
+                [!provide]                        PROVIDE (__fini_array_end, .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+
+.jcr            0x00000000000308f4        0x4
+ *(.jcr)
+ .jcr           0x00000000000308f4        0x0 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtbegin.o
+ .jcr           0x00000000000308f4        0x4 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtend.o
+
+.data.rel.ro    0x00000000000308f8       0xd0
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x00000000000308f8       0x18 .obj/tipc-config.o
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x0000000000030910       0xb8 .obj/systools.o
+
+.dynamic        0x00000000000309c8      0x138
+ *(.dynamic)
+ .dynamic       0x00000000000309c8      0x138 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crt1.o
+                0x00000000000309c8                _DYNAMIC
+                0x0000000000030b00                . = DATA_SEGMENT_RELRO_END (., 0x0)
+
+.got            0x0000000000030b00      0x270
+ *(.got.plt)
+ .got.plt       0x0000000000030b00      0x250 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crt1.o
+                0x0000000000030b00                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+ .igot.plt      0x0000000000030d50        0x0 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crt1.o
+ *(.got)
+ .got           0x0000000000030d50       0x20 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crt1.o
+ *(.igot)
+
+.data           0x0000000000030d70      0x914
+                [!provide]                        PROVIDE (__data_start, .)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000000030d70        0x4 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crt1.o
+                0x0000000000030d70                data_start
+                0x0000000000030d70                __data_start
+ .data          0x0000000000030d74        0x0 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o
+ .data          0x0000000000030d74        0x4 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtbegin.o
+                0x0000000000030d74                __dso_handle
+ .data          0x0000000000030d78        0x0 .obj/systools.o
+ .data          0x0000000000030d78        0x0 .obj/dnsc.o
+ .data          0x0000000000030d78        0x0 .obj/rtc.o
+ .data          0x0000000000030d78        0x0 .obj/reboot_halt.o
+ .data          0x0000000000030d78        0x0 .obj/intools.o
+ .data          0x0000000000030d78        0x0 .obj/uboot.o
+ .data          0x0000000000030d78        0x0 .obj/led.o
+ .data          0x0000000000030d78        0x0 .obj/mtd.o
+ .data          0x0000000000030d78        0x0 .obj/iodebug.o
+ .data          0x0000000000030d78        0x0 .obj/modemsignal.o
+ .data          0x0000000000030d78        0x0 .obj/usbreset.o
+ .data          0x0000000000030d78        0x0 .obj/iscfg.o
+ .data          0x0000000000030d78      0x704 .obj/tipc-config.o
+ .data.rel.local
+                0x000000000003147c      0x208 .obj/tipc-config.o
+                0x000000000003162c                cmd_array
+ .data          0x0000000000031684        0x0 .obj/sdebug.o
+ .data          0x0000000000031684        0x0 .obj/stestserver.o
+ .data          0x0000000000031684        0x0 .obj/bspatch.o
+ .data          0x0000000000031684        0x0 .obj/devmem2.o
+ .data          0x0000000000031684        0x0 .obj/image-fit.o
+ .data          0x0000000000031684        0x0 .obj/iburn_ig9.o
+ .data          0x0000000000031684        0x0 .obj/mobius_pysdk_flag.o
+ .data          0x0000000000031684        0x0 .obj/mobius_pysdk_install.o
+ .data          0x0000000000031684        0x0 .obj/mobius_pyapp_install.o
+ .data          0x0000000000031684        0x0 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/libgcc.a(_udivsi3.o)
+ .data          0x0000000000031684        0x0 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/libgcc.a(_dvmd_lnx.o)
+ .data          0x0000000000031684        0x0 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/libc_nonshared.a(elf-init.oS)
+ .data          0x0000000000031684        0x0 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtend.o
+ .data          0x0000000000031684        0x0 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o
+
+.tm_clone_table
+                0x0000000000031684        0x0
+ .tm_clone_table
+                0x0000000000031684        0x0 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtbegin.o
+ .tm_clone_table
+                0x0000000000031684        0x0 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtend.o
+
+.data1
+ *(.data1)
+                0x0000000000031684                _edata = .
+                [!provide]                        PROVIDE (edata, .)
+                0x0000000000031684                . = .
+                0x0000000000031684                __bss_start = .
+                0x0000000000031684                __bss_start__ = .
+
+.bss            0x0000000000031684    0x106ac
+ *(.dynbss)
+ .dynbss        0x0000000000031684        0x0 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crt1.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000031684        0x0 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crt1.o
+ .bss           0x0000000000031684        0x0 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o
+ .bss           0x0000000000031684        0x1 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtbegin.o
+ .bss           0x0000000000031685        0x0 .obj/systools.o
+ .bss           0x0000000000031685        0x0 .obj/dnsc.o
+ .bss           0x0000000000031685        0x0 .obj/rtc.o
+ .bss           0x0000000000031685        0x0 .obj/reboot_halt.o
+ .bss           0x0000000000031685        0x0 .obj/intools.o
+ *fill*         0x0000000000031685        0x3 
+ .bss           0x0000000000031688       0x44 .obj/uboot.o
+ .bss           0x00000000000316cc        0x0 .obj/led.o
+ .bss           0x00000000000316cc        0x0 .obj/mtd.o
+ .bss           0x00000000000316cc        0x0 .obj/iodebug.o
+ .bss           0x00000000000316cc        0x0 .obj/modemsignal.o
+ .bss           0x00000000000316cc        0x0 .obj/usbreset.o
+ .bss           0x00000000000316cc        0x0 .obj/iscfg.o
+ .bss           0x00000000000316cc    0x1025e .obj/tipc-config.o
+ .bss           0x000000000004192a        0x0 .obj/sdebug.o
+ *fill*         0x000000000004192a        0x2 
+ .bss           0x000000000004192c      0x400 .obj/stestserver.o
+ .bss           0x0000000000041d2c        0x0 .obj/bspatch.o
+ .bss           0x0000000000041d2c        0x0 .obj/devmem2.o
+ .bss           0x0000000000041d2c        0x0 .obj/image-fit.o
+ .bss           0x0000000000041d2c        0x0 .obj/iburn_ig9.o
+ .bss           0x0000000000041d2c        0x0 .obj/mobius_pysdk_flag.o
+ .bss           0x0000000000041d2c        0x0 .obj/mobius_pysdk_install.o
+ .bss           0x0000000000041d2c        0x0 .obj/mobius_pyapp_install.o
+ .bss           0x0000000000041d2c        0x0 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/libgcc.a(_udivsi3.o)
+ .bss           0x0000000000041d2c        0x0 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/libgcc.a(_dvmd_lnx.o)
+ .bss           0x0000000000041d2c        0x0 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/libc_nonshared.a(elf-init.oS)
+ .bss           0x0000000000041d2c        0x0 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtend.o
+ .bss           0x0000000000041d2c        0x0 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o
+ *(COMMON)
+ COMMON         0x0000000000041d2c        0x4 .obj/systools.o
+                0x0000000000041d2c                ACTION_STATE
+                0x0000000000041d30                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x0000000000041d30                _bss_end__ = .
+                0x0000000000041d30                __bss_end__ = .
+                0x0000000000041d30                . = ALIGN (0x4)
+                0x0000000000041d30                . = SEGMENT_START ("ldata-segment", .)
+                0x0000000000041d30                . = ALIGN (0x4)
+                0x0000000000041d30                __end__ = .
+                0x0000000000041d30                _end = .
+                [!provide]                        PROVIDE (end, .)
+                0x0000000000041d30                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x2d
+ *(.comment)
+ .comment       0x0000000000000000       0x2d /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crt1.o
+                                         0x2e (size before relaxing)
+ .comment       0x000000000000002d       0x2e /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtbegin.o
+ .comment       0x000000000000002d       0x2e .obj/systools.o
+ .comment       0x000000000000002d       0x2e .obj/dnsc.o
+ .comment       0x000000000000002d       0x2e .obj/rtc.o
+ .comment       0x000000000000002d       0x2e .obj/reboot_halt.o
+ .comment       0x000000000000002d       0x2e .obj/intools.o
+ .comment       0x000000000000002d       0x2e .obj/uboot.o
+ .comment       0x000000000000002d       0x2e .obj/led.o
+ .comment       0x000000000000002d       0x2e .obj/mtd.o
+ .comment       0x000000000000002d       0x2e .obj/iodebug.o
+ .comment       0x000000000000002d       0x2e .obj/modemsignal.o
+ .comment       0x000000000000002d       0x2e .obj/usbreset.o
+ .comment       0x000000000000002d       0x2e .obj/iscfg.o
+ .comment       0x000000000000002d       0x2e .obj/tipc-config.o
+ .comment       0x000000000000002d       0x2e .obj/sdebug.o
+ .comment       0x000000000000002d       0x2e .obj/stestserver.o
+ .comment       0x000000000000002d       0x2e .obj/bspatch.o
+ .comment       0x000000000000002d       0x2e .obj/devmem2.o
+ .comment       0x000000000000002d       0x2e .obj/image-fit.o
+ .comment       0x000000000000002d       0x2e .obj/iburn_ig9.o
+ .comment       0x000000000000002d       0x2e .obj/mobius_pysdk_flag.o
+ .comment       0x000000000000002d       0x2e .obj/mobius_pysdk_install.o
+ .comment       0x000000000000002d       0x2e .obj/mobius_pyapp_install.o
+ .comment       0x000000000000002d       0x2e /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/libc_nonshared.a(elf-init.oS)
+ .comment       0x000000000000002d       0x2e /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtend.o
+
+.ARM.attributes
+                0x0000000000000000       0x35
+ .ARM.attributes
+                0x0000000000000000       0x33 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crt1.o
+ .ARM.attributes
+                0x0000000000000033       0x23 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o
+ .ARM.attributes
+                0x0000000000000056       0x33 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtbegin.o
+ .ARM.attributes
+                0x0000000000000089       0x3b .obj/systools.o
+ .ARM.attributes
+                0x00000000000000c4       0x3b .obj/dnsc.o
+ .ARM.attributes
+                0x00000000000000ff       0x3b .obj/rtc.o
+ .ARM.attributes
+                0x000000000000013a       0x3b .obj/reboot_halt.o
+ .ARM.attributes
+                0x0000000000000175       0x3b .obj/intools.o
+ .ARM.attributes
+                0x00000000000001b0       0x3b .obj/uboot.o
+ .ARM.attributes
+                0x00000000000001eb       0x3b .obj/led.o
+ .ARM.attributes
+                0x0000000000000226       0x3b .obj/mtd.o
+ .ARM.attributes
+                0x0000000000000261       0x3b .obj/iodebug.o
+ .ARM.attributes
+                0x000000000000029c       0x3b .obj/modemsignal.o
+ .ARM.attributes
+                0x00000000000002d7       0x3b .obj/usbreset.o
+ .ARM.attributes
+                0x0000000000000312       0x3b .obj/iscfg.o
+ .ARM.attributes
+                0x000000000000034d       0x3b .obj/tipc-config.o
+ .ARM.attributes
+                0x0000000000000388       0x3b .obj/sdebug.o
+ .ARM.attributes
+                0x00000000000003c3       0x3b .obj/stestserver.o
+ .ARM.attributes
+                0x00000000000003fe       0x3b .obj/bspatch.o
+ .ARM.attributes
+                0x0000000000000439       0x3b .obj/devmem2.o
+ .ARM.attributes
+                0x0000000000000474       0x3b .obj/image-fit.o
+ .ARM.attributes
+                0x00000000000004af       0x3b .obj/iburn_ig9.o
+ .ARM.attributes
+                0x00000000000004ea       0x3b .obj/mobius_pysdk_flag.o
+ .ARM.attributes
+                0x0000000000000525       0x3b .obj/mobius_pysdk_install.o
+ .ARM.attributes
+                0x0000000000000560       0x3b .obj/mobius_pyapp_install.o
+ .ARM.attributes
+                0x000000000000059b       0x21 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x00000000000005bc       0x21 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/libgcc.a(_dvmd_lnx.o)
+ .ARM.attributes
+                0x00000000000005dd       0x35 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/libc_nonshared.a(elf-init.oS)
+ .ARM.attributes
+                0x0000000000000612       0x33 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/crtend.o
+ .ARM.attributes
+                0x0000000000000645       0x23 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000       0xf0
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x38 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crt1.o
+ .debug_aranges
+                0x0000000000000038       0x30 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o
+ .debug_aranges
+                0x0000000000000068       0x20 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/libgcc.a(_udivsi3.o)
+ .debug_aranges
+                0x0000000000000088       0x20 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/libgcc.a(_dvmd_lnx.o)
+ .debug_aranges
+                0x00000000000000a8       0x20 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/libc_nonshared.a(elf-init.oS)
+ .debug_aranges
+                0x00000000000000c8       0x28 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000      0x819
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000      0x164 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crt1.o
+ .debug_info    0x0000000000000164       0xd7 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o
+ .debug_info    0x000000000000023b      0x1bf /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/libgcc.a(_udivsi3.o)
+ .debug_info    0x00000000000003fa      0x1bf /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/libgcc.a(_dvmd_lnx.o)
+ .debug_info    0x00000000000005b9      0x189 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/libc_nonshared.a(elf-init.oS)
+ .debug_info    0x0000000000000742       0xd7 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o
+
+.debug_abbrev   0x0000000000000000      0x1b6
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0x52 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crt1.o
+ .debug_abbrev  0x0000000000000052       0x12 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o
+ .debug_abbrev  0x0000000000000064       0x14 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/libgcc.a(_udivsi3.o)
+ .debug_abbrev  0x0000000000000078       0x14 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/libgcc.a(_dvmd_lnx.o)
+ .debug_abbrev  0x000000000000008c      0x118 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/libc_nonshared.a(elf-init.oS)
+ .debug_abbrev  0x00000000000001a4       0x12 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o
+
+.debug_line     0x0000000000000000      0x45c
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000       0x80 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crt1.o
+ .debug_line    0x0000000000000080       0x6c /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o
+ .debug_line    0x00000000000000ec      0x100 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/libgcc.a(_udivsi3.o)
+ .debug_line    0x00000000000001ec       0xe6 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/libgcc.a(_dvmd_lnx.o)
+ .debug_line    0x00000000000002d2      0x136 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/libc_nonshared.a(elf-init.oS)
+ .debug_line    0x0000000000000408       0x54 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o
+
+.debug_frame    0x0000000000000000       0x8c
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0x20 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/libgcc.a(_udivsi3.o)
+ .debug_frame   0x0000000000000020       0x28 /opt/buildroot-2017.02.5/output/host/opt/ext-toolchain/bin/../lib/gcc/arm-linux-gnueabihf/6.2.1/libgcc.a(_dvmd_lnx.o)
+ .debug_frame   0x0000000000000048       0x44 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/libc_nonshared.a(elf-init.oS)
+
+.debug_str      0x0000000000000000      0x373
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x1d7 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crt1.o
+                                        0x217 (size before relaxing)
+ .debug_str     0x00000000000001d7      0x19c /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/libc_nonshared.a(elf-init.oS)
+                                        0x25f (size before relaxing)
+
+.debug_loc      0x0000000000000000       0xdd
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000       0xdd /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/libc_nonshared.a(elf-init.oS)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000       0x48
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x28 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o
+ .debug_ranges  0x0000000000000028       0x20 /opt/buildroot-2017.02.5/output/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_addr
+ *(.debug_addr)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(systools elf32-littlearm)
